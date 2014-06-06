@@ -16,7 +16,7 @@
             "ssh_password": "vagrant",
             "ssh_username": "root",
             "ssh_wait_timeout": "20m",
-            "type": "virtualbox",
+            "type": "virtualbox-iso",
             "vboxmanage": [
                 ["modifyvm", "{{.Name}}", "--memory", "1024"],
                 ["modifyvm", "{{.Name}}", "--cpus", "2"]
